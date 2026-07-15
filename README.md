@@ -2,40 +2,41 @@
 
 ## Project Overview
 
-The **Interactive Personal Data Collector** is a simple Python console program that collects basic personal details from the user. It demonstrates Python fundamentals such as variables, user input, type conversion, formatted output, and working with the `datetime` module.
+The Interactive Personal Data Collector is a simple Python console application that gathers basic personal information from a user and demonstrates core programming concepts. It highlights variables, user input, type conversion, formatted output, and the use of Python's `datetime` module.
 
-After collecting the information, the program:
+After the user provides their details, the program:
 - Displays the entered values.
 - Shows the data type of each value.
-- Displays each variable's memory address using `id()`.
-- Estimates the user's birth year using the current year and entered age.
+- Prints the memory address of each variable using `id()`.
+- Estimates the user's birth year from their age.
 
 ---
 
 ## Repository Contents
 
-- `Submission_01.py` — the main submission script.
+- `Submission_01.py` — the main Python script.
 - `README.md` — project documentation.
 - `output.csv` — sample output file.
-- `output.pdf` — sample output file.
-- `.gitignore` — ignore rules for this repository.
+- `output.pdf` — exported sample output.
+- `.gitignore` — repository ignore rules.
 
 ---
 
 ## Features
 
-- Collects:
-  - Name
-  - Age
-  - Height
-  - Favourite Number
-- Demonstrates:
-  - `str`, `int`, and `float` data types
-  - `input()` for user input
-  - Type conversion with `int()` and `float()`
-  - Formatted output using f-strings
-  - `type()` and `id()` built-in functions
-  - Use of the `datetime` module
+The program collects:
+- Name
+- Age
+- Height
+- Favourite number
+
+It demonstrates:
+- `str`, `int`, and `float` data types
+- `input()` for user interaction
+- Type conversion with `int()` and `float()`
+- Formatted output using f-strings
+- Built-in functions such as `type()` and `id()`
+- The `datetime` module
 
 ---
 
@@ -48,7 +49,7 @@ After collecting the information, the program:
 python Submission_01.py
 ```
 
-or, if your system uses `python3`:
+Or, if your system uses `python3`:
 
 ```bash
 python3 Submission_01.py
@@ -78,7 +79,7 @@ Your birth year is approximately: 2006 (based on your age of 20)
 Thank you for using the Personal Data Collector. Goodbye!
 ```
 
-> Note: Memory addresses shown by `id()` will differ each run.
+> Note: Memory addresses returned by `id()` will vary between runs.
 
 ---
 
@@ -90,24 +91,16 @@ Thank you for using the Personal Data Collector. Goodbye!
 - Data types
 - Formatted strings
 - Built-in functions: `type()` and `id()`
-- Module import (`datetime`)
+- Module import with `datetime`
 - Basic arithmetic operations
 
 ---
 
-## Limitations
+## Possible Improvements
 
-- The program assumes valid numeric input for age, height, and favourite number.
-- No error handling is currently implemented for invalid input.
-- The birth year is approximate because it does not account for the user's exact birthday.
-
----
-
-## Future Improvements
-
-- Add input validation.
-- Add exception handling with `try-except`.
-- Validate age and height ranges.
-- Save collected data to a CSV or text file.
-- Add support for multiple entries.
-- Add a graphical user interface (GUI).
+- Add input validation
+- Handle invalid input with `try` and `except`
+- Validate age and height ranges
+- Save collected data to a CSV or text file
+- Support multiple entries
+- Add a graphical user interface
