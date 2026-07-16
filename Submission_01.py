@@ -33,3 +33,4 @@ print(f"Your birth year is approximately: {birth_year} (based on your age of {ag
 print(" ")
 
 print("Thank you for using the Personal Data Collector. Goodbye!")
+        
